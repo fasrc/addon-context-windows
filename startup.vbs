@@ -13,7 +13,7 @@ For Each objItem in colItems
     Exit For
 Next
  
-If NOT Len(driveLetter) Then
+If Len(driveLetter) = 0 Then
     driveLetter = "C:"
 End If
  
